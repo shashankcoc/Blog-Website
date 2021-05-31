@@ -1,19 +1,29 @@
-Project Report
+**Project Report**
 
-Index
+**Index**
+
 •	Introduction
+
 •	Objective
+
 •	Overview
+
 •	Layout Analysis
+
 •	Feasibility Study
+
 •	Used Case Diagram
+
 •	Activity Flow Diagram
+
 •	Technologies Used
+
 •	Future Inchancement
+
 •	Conclusion
 
 
-Introduction:
+**Introduction:**
 
 A blog is a frequently updated online personal journal or diary. It is a place to express yourself to the world. A place to share your thoughts and your passions. Really, it’s anything you want it to be. For our purposes we’ll say that a blog is your own website that you are going to update on an ongoing basis. Blog is a short form for the word weblog and the two words are used interchangeably. Blogs range from the personal to the political, and can focus on one narrow subject or a whole range of subjects.It can also play an important role in student’s life. It can help in the promotion of critical and analytical thinking, increased access and exposure to quality content and a combination of solitary and social interactions with peers.
 
@@ -25,7 +35,7 @@ But proposed online blogging system can help in accomplish these things and even
 
 
 
-Objective:
+**Objective**:
 
 Online  Blogging System is a perfect platform for students, teachers, institutional administrative purposes.
 The basic objective of developing this project is:
@@ -43,7 +53,7 @@ parents/guardians aware about  the happenings or events.
 
 
 
-Project Scope:
+**Project Scope:**
 
 The Online Blogging System will allow the users to publish the writings, if
 he/she should without having credentials to login. The main users of this project are students, teachers and administrators.
@@ -57,9 +67,9 @@ and Activity section here.
 Add New” button.
 
 
-Technologies Used
+**Technologies Used
 
-FRONT-END
+**FRONT-END**
 
 HTML5- HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and latest major version of HTML that is a World Wide Web Consortium (W3C) recommendation.
  CSS- Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. CSS information can be provided from various sources. These sources can be the web browser, the user and the author.
@@ -68,7 +78,7 @@ JavaScript- JavaScript s a high-level, interpreted scripting language that confo
 Bootstrap: Front-end framework Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
 
 
- Feasibility study:
+ **Feasibility study:**
 	Being a blog website it have a little hosting cost. Since the system doesn’t consist of any multimedia data transfer, bandwidth required for this is very low.
 	Bug fixes and maintaining tasks will have an associated cost.
 Resources that are required for the project-
@@ -78,7 +88,7 @@ Resources that are required for the project-
     From above points it is clear that the project is financially feasible. 
 
 
-BACK-END MongoDB NoSQL:
+**BACK-END MongoDB NoSQL:**
 MongoDB is an example of such type. Key-Value stores: Here, each unstructured data is stored with a key for recognizing it. Graph stores: In this type of database, data is stored mostly for networked data. It helps to relate data based on some existing data. Handle large volumes of data at high speed with a scale-out architecture.
 
 
@@ -133,7 +143,7 @@ Use case Diagram:
 
 
 
-Future Enhancement
+**Future Enhancement**
 
 This project was developed to fulfil the requirement of common blogging platform for educational purposes. However, there are lots of scope to improve the performance of the Online Blogging Systemin the area of user interface, database performance, and queryp rocessing time etc. So there are many things for future enhancement of this project. The future enhancements that are possible in the project are as follows:
 
@@ -145,7 +155,7 @@ This project was developed to fulfil the requirement of common blogging platform
 
 
 
-Conclusion:
+**Conclusion:**
 
 While developing this system a conscious effort has been made to create and develop package, making use of available tools, technologies and resources- that would generate a proper system for cases.
 While making this system, an eye has been kept on making it user-friendly. As such one may hope that the system will be acceptable to any user and will adequately meet his/her needs. As in case of any system development process where there are number of short coming, there have been some shortcomings in the development of this system also.
