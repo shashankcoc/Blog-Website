@@ -1,0 +1,38 @@
+
+<%- include("partials/header"); -%>
+
+    <h1 class="heading">Welcome to Blog Journal</h1><br><br>
+<pre class="font-size">
+Hello everyone! 
+
+Welcome to the blog. This website is based on a complete full stack approach with technologies like HTML, CSS, EJs,
+Bootsptrap, Git, Nodejs, MongoDB, Mongoose .etc.
+
+Well it's a fully fledged responsive website where we post articles from the server side and client side. Its basic function 
+is to upload and update the article's which are present on the website.
+</pre>
+<br>
+
+<h3><marquee class="marqueeText" behavior="" direction=""> Live Covid Report !!  </marquee> </h3>
+<br>
+
+<div class="iframe-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/NMre6IAAAiU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br><br>
+</div>
+
+<br><br><br>
+  <%  posts.forEach(function(post){ %>
+
+    <ul>
+    <li><h1><%=post.title%></h1></li>
+     <p  class="font-size">
+    <%=post.content.substring(0, 100) + " ..."%>
+    <a href="/posts/<%=post._id%>">Read More</a>
+    </p>
+    </ul>
+
+    <% }) %>
+
+<br><br> <br><br>
+<%- include("partials/footer"); -%>

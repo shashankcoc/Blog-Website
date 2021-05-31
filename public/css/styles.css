@@ -1,0 +1,418 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+a:link{
+  font-size: 15px;
+  font-weight: 400;
+}
+.blogText{
+  font-size: 20px;
+}
+.blogHeader{
+  font-size: 30px;
+}
+
+.dropdown-toggle{
+  padding-top: 8px;
+  font-size: large;
+}
+.dropdown-item{
+  font-size: medium;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.heading{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  text-align: center;  
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-custom{
+  background: -webkit-linear-gradient(90deg, #3b4041 0%, #1d2b31 100%);
+}
+.navbar-brand{
+  font-family: 'New Tegomin', serif;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+.nav-item{
+  padding:5px;
+  padding-top: 2px;
+  margin-left: 6px;
+}
+.footer-padding {
+	padding-bottom: 70px;
+}
+.font-size{
+  margin: 5px;
+  padding: 15px;
+  font-size: 15px;
+  
+}
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	background-color: hsl(0, 0%, 14%);
+}
+.marqueeText{
+  color: rgb(243, 47, 47);
+}
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.dark-mode{
+  background-color: hsl(229, 25%, 14%);
+  color: hsl(0, 0%, 100%);
+}
+
+.post-title{
+  font-family: 'New Tegomin', serif;
+  color: rgb(252, 128, 128);
+  font-size: 30px;
+  font-weight: 30px;
+  margin: 5px;
+  padding: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+
+
+/* form starting stylings  */
+.group {
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.contactText {
+  font-size: 18px;
+  padding: 5px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+
+  contactText:focus {
+      outline: none;
+  }
+
+/* LABEL  */
+.xlabel {
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label {
+  top: -20px;
+  font-size: 14px;
+  color: rgb(2, 2, 2);
+}
+
+.bar {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+  .bar:before, .bar:after {
+      content: '';
+      height: 2px;
+      width: 0;
+      bottom: 1px;
+      position: absolute;
+      background: #fff;
+      transition: 0.2s ease all;
+      -moz-transition: 0.2s ease all;
+      -webkit-transition: 0.2s ease all;
+  }
+
+  .bar:before {
+      left: 50%;
+  }
+
+  .bar:after {
+      right: 50%;
+  }
+
+
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width: 50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation: inputHighlighter 0.3s ease;
+  -moz-animation: inputHighlighter 0.3s ease;
+  animation: inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+  from {
+      background: #fff;
+  }
+
+  to {
+      width: 0;
+      background: transparent;
+  }
+}
+
+@-moz-keyframes inputHighlighter {
+  from {
+      background: #fff;
+  }
+
+  to {
+      width: 0;
+      background: transparent;
+  }
+}
+
+@keyframes inputHighlighter {
+  from {
+      background: #fff;
+  }
+
+  to {
+      width: 0;
+      background: transparent;
+  }
+}
+
+
+#panel {
+  border: 1px solid rgb(200, 200, 200);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+  background: -webkit-linear-gradient(90deg, #3b4041 0%, #1d2b31 100%);
+  background: rgb(68, 62, 62); 
+  background: -webkit-linear-gradient(90deg, #3b4041 0%, #1d2b31 100%); 
+  background: -o-linear-gradient(90deg, #3b4041 0%, #1d2b31 100%); 
+  background: -moz-linear-gradient(90deg, #3b4041 0%, #1d2b31 100%); 
+  background: linear-gradient(90deg, #3b4041 0%, #1d2b31 100%); 
+  
+  border-radius: 10px;
+  top: 50px;
+}
+
+
+
+ /* Navgation Bar */
+ #menuToggle
+ {
+   display: block;
+   position: relative;
+   top: 50px;
+   left: 50px;
+   z-index: 1;
+   -webkit-user-select: none;
+   user-select: none;
+ }
+ 
+ #menuToggle a
+ {
+   text-decoration: none;
+   color: #000000;
+   
+   transition: color 0.3s ease;
+ }
+ 
+ #menuToggle a:hover
+ {
+   color: rgb(43, 194, 199);
+ }
+ 
+ 
+ #menuToggle input
+ {
+   display: block;
+   width: 40px;
+   height: 32px;
+   position: absolute;
+   top: -7px;
+   left: -5px;
+   
+   cursor: pointer;
+   
+   opacity: 0; 
+   z-index: 2; 
+   
+   -webkit-touch-callout: none;
+ }
+ 
+ 
+ #menuToggle span
+ {
+   display: block;
+   width: 33px;
+   height: 4px;
+   margin-bottom: 5px;
+   position: relative;
+   
+   background: hsl(172, 62%, 32%);
+   border-radius: 3px;
+   
+   z-index: 1;
+   
+   transform-origin: 4px 0px;
+   
+   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+               opacity 0.55s ease;
+ }
+ 
+ #menuToggle span:first-child
+ {
+   transform-origin: 0% 0%;
+ }
+ 
+ #menuToggle span:nth-last-child(2)
+ {
+   transform-origin: 0% 100%;
+ }
+ 
+ #menuToggle input:checked ~ span
+ {
+   opacity: 1;
+   transform: rotate(45deg) translate(-2px, -1px);
+   background: #f7f0f0;
+ }
+ 
+ 
+ #menuToggle input:checked ~ span:nth-last-child(3)
+ {
+   opacity: 0;
+   transform: rotate(0deg) scale(0.2, 0.2);
+ }
+ 
+ 
+ #menuToggle input:checked ~ span:nth-last-child(2)
+ {
+   transform: rotate(-45deg) translate(0, -1px);
+ }
+ 
+
+ #menu
+ {
+   position: absolute;
+   width: 300px;
+   height: 600px;
+   margin: -100px 0 0 -50px;
+   padding: 50px;
+   padding-top: 125px;
+   background: #413f3f;
+   list-style-type: none;
+   -webkit-font-smoothing: antialiased;
+   
+   transform-origin: 0% 0%;
+   transform: translate(-100%, 0);
+   
+   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+ }
+ 
+ #menu li
+ {
+   padding: 10px 0;
+   font-size: 22px;
+   font-weight: 350;
+   color: rgb(255, 255, 255);
+ }
+
+ #menuToggle input:checked ~ ul
+ {
+   transform: none;
+ }
+
+
+ /* Developers Details */
+ .box15{position:relative}
+.box15 img{width:100%;height:auto}
+.box15 .box-content{width:100%;height:100%;position:absolute;top:0;left:0;transition:all .5s ease 0s}
+.box15:hover .box-content{background-color:rgba(255,242,242,.8)}
+.box15 .box-content:after,.box15 .box-content:before{content:"";width:50px;height:50px;position:absolute;opacity:0;transform:scale(1.5);transition:all .6s ease .3s}
+.box15 .box-content:before{border-left:1px solid #040404;border-top:1px solid #040404;top:19px;left:19px}
+.box15 .box-content:after{border-bottom:1px solid #040404;border-right:1px solid #040404;bottom:19px;right:19px}
+.box15:hover .box-content:after,.box15:hover .box-content:before{opacity:1;transform:scale(1)}
+.box15 .title{font-size:20px;color:#000;margin:10px;position:relative;top:0;opacity:0;transition:all 1s ease 10ms}
+.box15:hover .title{top:39%;opacity:1;transition:all .5s cubic-bezier(1,-.53,.405,1.425) 10ms}
+.box15 .title:after{content:"";width:0;height:1px;background:#040404;position:absolute;bottom:-8px;left:0;right:0;margin:0 auto;transition:all 1s ease 0s}
+.box15:hover .title:after{width:80%;transition:all 1s ease .8s}
+.box15 .icon{width:100%;margin:20px;bottom:0;opacity:0;transition-duration:.6s;transition-timing-function:cubic-bezier(1,-.53,.405,1.425);transition-delay:.1s}
+.box15:hover .icon{bottom:39%;opacity:1;}
+.box15 .icon li{display:inline-block}
+.box15 .icon li a{display:block;width:40px;height:40px;line-height:40px;border-radius:50%;font-size:18px;color:#000;border:1px solid #000;margin-right:5px;transition:all .3s ease-in-out 0s}
+.box15 .icon li a:hover{background:#000;color:#fff}
+@media only screen and (max-width:990px){.box15{margin-bottom:30px}
+}
