@@ -67,7 +67,7 @@ and Activity section here.
 Add New” button.
 
 
-**Technologies Used
+**Technologies Used**
 
 **FRONT-END**
 
@@ -158,5 +158,6 @@ This project was developed to fulfil the requirement of common blogging platform
 **Conclusion:**
 
 While developing this system a conscious effort has been made to create and develop package, making use of available tools, technologies and resources- that would generate a proper system for cases.
+
 While making this system, an eye has been kept on making it user-friendly. As such one may hope that the system will be acceptable to any user and will adequately meet his/her needs. As in case of any system development process where there are number of short coming, there have been some shortcomings in the development of this system also.
 
